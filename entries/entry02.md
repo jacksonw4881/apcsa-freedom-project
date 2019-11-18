@@ -2,7 +2,6 @@
 ##### 11/15/19
 
 ##### Small update from entry 1:
----
 I've decided to create a very in depth PUBG Guide Java app that gives people tips and tricks about the game based on my own experience of playing the game. This will be the PC version of PUBG because it's harder to play and it's more competitive than the mobile version. I will also create a multiple choice gun sound quiz where when a user clicks on a button, it will create a gun noise, and the user would have to choose which gun it is. In the game, knowing what gun the enemy has based on the gun sound when they shoot is important since it allows you to be aware of what kind of gun you are dealing with.
 
 ## Why Java?
