@@ -27,7 +27,9 @@ private Button gunguide;
 
 We then have to reference it by creating an object of a button type within the ```protected void onCreate(Bundle savedInstanceState)``` method, which is similar to the main method in Java.
 
-```gunguide = (Button) findViewById(R.id.gunguide);```
+```java
+gunguide = (Button) findViewById(R.id.gunguide);
+```
 
 The ```findViewById``` method goes through the resources of the id to find the gunguide id button and returns it. We cast it as a Button type to have the properties of a Button.
 
