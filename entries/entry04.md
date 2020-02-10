@@ -52,7 +52,7 @@ Lastly, we need to create the ```openGunGuide``` method and create an ```Intent`
 public void openGunGuide() {
     Intent intent = new Intent(this, GunGuide.class);
     startActivity(intent);
-    }
+}
 ```
 
 This will open GunGuide.java from MainActivity.java when the user clicks on the Gun Guide button.
