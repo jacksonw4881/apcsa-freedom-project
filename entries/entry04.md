@@ -32,12 +32,12 @@ The ```findViewById``` method goes through the resources of the id to find the g
 Then, we want something to happen when the user clicks on the button. We can do this by assigning an ```setOnClickListener``` method onto the button.
 
 ```
-    gunguide.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            openGunGuide();
-        }
-    });
+gunguide.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View v) {
+        openGunGuide();
+    }
+});
 ```
 
 Essentially, when the Gun Guide button is clicked, the ```onClick``` method will be called, which will call the ```openGunGuide``` method.
@@ -45,9 +45,9 @@ Essentially, when the Gun Guide button is clicked, the ```onClick``` method will
 Lastly, we need to create the ```openGunGuide``` method and create an ```Intent``` object for our button in order for it to open to another screen. We then call the ```Intent``` object with the ```startActivity``` method.
 
 ```
-    public void openGunGuide() {
-        Intent intent = new Intent(this, GunGuide.class);
-        startActivity(intent);
+public void openGunGuide() {
+    Intent intent = new Intent(this, GunGuide.class);
+    startActivity(intent);
     }
 ```
 
