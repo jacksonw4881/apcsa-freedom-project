@@ -7,7 +7,7 @@ Currently, I am on step 5 on the Engineering Design Process, which is creating a
 ## Knowledge
 To create a button, we have to drag a button from the palette to the design layout. This is the code on the text editor of activity_main.xml when we add the button onto the screen of the design editor.
 
-```
+```java
 <Button
         android:id="@+id/gunguide"
         android:layout_width="418dp"
@@ -21,7 +21,9 @@ The only main takeaway of this is that the name of the button is called Gun Guid
 
 Next, we need to create a private variable button in the MainActivity class. The name of the private variable button must be the same as the button id in order for it to work.
 
-```private Button gunguide;```
+```java
+private Button gunguide;
+```
 
 We then have to reference it by creating an object of a button type within the ```protected void onCreate(Bundle savedInstanceState)``` method, which is similar to the main method in Java.
 
@@ -31,7 +33,7 @@ The ```findViewById``` method goes through the resources of the id to find the g
 
 Then, we want something to happen when the user clicks on the button. We can do this by assigning an ```setOnClickListener``` method onto the button.
 
-```
+```java
 gunguide.setOnClickListener(new View.OnClickListener() {
     @Override
     public void onClick(View v) {
@@ -44,7 +46,7 @@ Essentially, when the Gun Guide button is clicked, the ```onClick``` method will
 
 Lastly, we need to create the ```openGunGuide``` method and create an ```Intent``` object for our button in order for it to open to another screen. We then call the ```Intent``` object with the ```startActivity``` method.
 
-```
+```java
 public void openGunGuide() {
     Intent intent = new Intent(this, GunGuide.class);
     startActivity(intent);
