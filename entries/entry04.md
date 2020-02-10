@@ -1,5 +1,5 @@
 # Entry 4
-##### 2/10/20
+##### 2/09/20
 
 ## Engineering Design Process
 Currently, I am on step 5 on the Engineering Design Process, which is creating a prototype. I have created multiple buttons that the user can choose to click on based on what the user wants to see, and when the user clicks on the button, it will open to a new screen with different texts or different buttons that the user can click on. I have learned how to do this with the [Android Developer Guide](https://developer.android.com/guide/topics/ui/controls/button) and some help on [Stack Overflow](https://stackoverflow.com/questions/24610527/how-do-i-get-a-button-to-open-another-activity). This interaction is a big component of my app since my app will have many buttons that the user can click on to see what tip the user wants to see.
