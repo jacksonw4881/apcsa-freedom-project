@@ -53,7 +53,7 @@ This enables the user to play the gun sound when the button is clicked, and can 
 
 ## Skills
 
-**Problem decomposition** was important in building the app since by breaking the task in smaller pieces, I could finish the MVP at a gradual rate. By splitting up the work I needed to do into smaller sections, I could finish the work much faster than by not having a plan at all. In addition, **organization** was very important in building the app since I have many different files from each topic, and I will have even more files from the gun sound quiz. To improve this, I had created folders for each topic to organize each file.
+**Problem decomposition** was important in building the app since by breaking the task in smaller pieces, it would be much easier to fulfill the MVP. By splitting up the work I needed to do into smaller sections, I could finish the work much faster than by not having a plan at all. In addition, **organization** was very important in building the app since I have many different files from each topic, and I will have even more files from the gun sound quiz. To improve this, I had created folders for each topic to organize each file.
 
 [Previous](entry04.md) | [Next](entry06.md)
 
